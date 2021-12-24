@@ -95,6 +95,16 @@ p {
   box-shadow: gray 1px 1px 5px;
 }
 
+.form .add-to-card {
+  margin-top: 10px;
+  background-color: rgb(0,120,212);
+  color: white;
+}
+
+.form .add-to-card:hover {
+  background-color: rgb(1, 133, 235);
+}
+
 .long-desc .title {
   opacity: 0.9;
 }
