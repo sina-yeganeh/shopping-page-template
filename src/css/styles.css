@@ -20,6 +20,10 @@ hr {
   box-shadow: 1px 1px 3px gray;
 }
 
+p {
+  font-family: bg;
+}
+
 .content {
   padding: 20px;
   display: flex;
