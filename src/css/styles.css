@@ -1,0 +1,88 @@
+@font-face {
+  font-family: bg;
+  src: url("../fonts/bg/BrandonGrotesque-Medium.woff");
+}
+
+@font-face {
+  font-family: bg-black;
+  src: url("../fonts/bg/BrandonGrotesque-Black.woff");
+}
+
+body {
+  font-family: bg;
+  margin: 0;
+  overflow: hidden;
+  font-size: 18px;
+}
+
+hr {
+  border: rgb(19, 19, 19) solid 1px;
+  box-shadow: 1px 1px 3px gray;
+}
+
+.content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form .title {
+  font-size: 18px;
+  font-family: bg-black;
+}
+
+.form {
+  margin-left: 20px;
+}
+
+.form .small-desc {
+  opacity: 0.8;
+  font-size: 16px;
+  margin-top: -20px;
+}
+
+.image .product {
+  width: 400px;
+  height: inherit;
+  border: solid gray 1px;
+  border-radius: 10px;
+  box-shadow: rgb(149, 149, 149) 1px 1px 5px;
+}
+
+.form .buy {
+  width: 100%;
+  padding: 15px;
+  background-color: none;
+  border-radius: 5px;
+  border: none;
+  color: black;
+  transition: .3s;
+  cursor: pointer;
+  font-family: bg;
+}
+
+.form .tip {
+  opacity: 0.9;
+}
+
+.form .buy:hover {
+  color: white;
+  background-color: black;
+  box-shadow: gray 1px 1px 5px;
+}
+
+.long-desc {
+  padding: 10px 300px;
+}
+
+.long-desc .title {
+  opacity: 0.9;
+}
