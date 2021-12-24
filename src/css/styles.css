@@ -67,6 +67,7 @@ hr {
   transition: .3s;
   cursor: pointer;
   font-family: bg;
+  outline: none;
 }
 
 .form .tip {
@@ -85,4 +86,25 @@ hr {
 
 .long-desc .title {
   opacity: 0.9;
+}
+
+@media screen and (min-width: 425px) {
+  body {
+    overflow: auto;
+  }
+  .main {
+    display: block;
+  }
+  .image .product {
+    width: 100%;
+  }
+  .form .buy {
+    font-size: 20px;
+  }
+  .long-desc {
+    padding: 10px 5px;
+  }
+  .form {
+    margin-left: 0;
+  }
 }
