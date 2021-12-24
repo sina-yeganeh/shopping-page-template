@@ -67,7 +67,7 @@ p {
 .image .product {
   width: 400px;
   height: inherit;
-  border: solid gray 1px;
+  /* border: solid gray 1px; */
   border-radius: 10px;
   box-shadow: rgb(149, 149, 149) 1px 1px 5px;
 }
