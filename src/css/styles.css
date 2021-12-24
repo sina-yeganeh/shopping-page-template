@@ -13,7 +13,7 @@ body {
   margin: 0;
   overflow: hidden;
   font-size: 18px;
-  background-image: url("../images/background/background.jpg");
+  background-image: url("../images/background.jpg");
   background-repeat: repeat;
   background-size: cover;
 }
