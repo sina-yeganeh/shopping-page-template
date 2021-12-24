@@ -1,2 +1,1 @@
-# shop-page-template
-A simple shot template 
+### Shop Page Tempalte
