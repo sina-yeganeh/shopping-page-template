@@ -1,2 +1,2 @@
 ### Shopping Page Tempalte
-###### :star: [visit website](https://sina-yeganeh.github.io/shop-page-template/)
+###### :star: [visit website](https://sina-yeganeh.github.io/shopping-page-template/)
